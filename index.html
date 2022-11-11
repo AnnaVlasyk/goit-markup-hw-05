@@ -59,7 +59,7 @@
       <div class="container">
         <div class="hero-box">
           <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
         </div>
       </div>
     </section>
@@ -129,14 +129,23 @@
       <div class="container post-box">
         <h2 class="post-title">Чим ми займаємося</h2>
         <ul class="list">
-          <li>
+          <li class="section-post">
             <img src="./images/box1.jpg" class="post-photo" alt="Приклад1" width="370" />
+            <div class="ovarlay">
+              <p class="post-text">Десктопні додатки</p>
+            </div>
           </li>
-          <li>
+          <li class="section-post">
             <img src="./images/box2.jpg" class="post-photo" alt="Приклад2" width="370" />
+            <div class="ovarlay">
+              <p class="post-text">Мобільні додатки</p>
+            </div>
           </li>
-          <li>
+          <li class="section-post">
             <img src="./images/box3.jpg" class="post-photo" alt="Приклад3" width="370" />
+            <div class="ovarlay">
+              <p class="post-text">Дизайнерські рішення</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -404,6 +413,18 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="close-btn" data-modal-close>Закрити
+        <!-- <svg class="close-black"> 
+          <use href="/images/sprite.svg#close-black"></use>
+        </svg>-->
+      </button>
+    </div>
+  </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
