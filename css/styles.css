@@ -551,7 +551,7 @@ a {
     align-items: center;
     justify-content: center;
 
-    transform: transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
@@ -594,7 +594,7 @@ border: 1px solid rgba(33, 150, 243, 1);
     height: 44px;
     border-radius: 50%;
 
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 }
